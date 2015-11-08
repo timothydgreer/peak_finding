@@ -3,7 +3,7 @@ close all
 clear
 tic
 %read in the wav file
-[d, sr]=wavread('\\warehouse2.seasad.wustl.edu\home\greert\winprofile\desktop\SeniorDesign\e7sharp9.wav');
+[d, sr]=wavread('INSERT YOUR FILE HERE!');
 s = 2^8+1000; % set s to be arbitrarily high.
 x = 1; %user input, ask for value between 1.5=double and 0 (not inclusive)
 % Goes here if stereo audio file
